@@ -1,2 +1,48 @@
 @import 'base.css';
 @import 'iconfont.css';
+
+/* 头部导航 */
+.head{
+
+}
+
+.head li{
+    float: left;
+    line-height: 35px;
+    padding: 0 6px;
+}
+
+.head a{
+    float: left;
+    color: #6c6c6c;
+}
+
+.head a.login{
+    color: #f22e00;
+    margin-right: 6px;
+}
+
+.head a:hover{
+    color: #f40;
+}
+
+.head a:hover .icon-shoucangjia{
+    color: #f40;
+}
+
+
+.head span{
+    float: left;
+}
+
+.head .icon-arrow-down{
+    margin-left: 6px;
+}
+
+.head .icon-shoucangjia{
+    color: #9c9c9c;
+}
+
+.head .line{
+    color: #ddd;
+}
