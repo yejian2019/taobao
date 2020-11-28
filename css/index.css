@@ -1,11 +1,7 @@
 @import 'base.css';
 @import 'iconfont.css';
 
-/* 头部导航 */
-.head{
-
-}
-
+/* 头部导航*/
 .head li{
     float: left;
     line-height: 35px;
@@ -45,4 +41,52 @@
 
 .head .line{
     color: #ddd;
+}
+
+
+/* 头部广告*/
+.head-ad{
+    background-color: #fd5632;
+}
+
+/* 搜索区 */
+.search-wrap{
+    background-color: #fff;
+    padding: 24px 0 10px 0;
+}
+
+.search-main h1 a{
+    display: block;
+    width: 190px;
+    height: 58px;
+    background: url(../img/logo.png) no-repeat center;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-top: 8px;
+    color: #6c6c6c;
+}
+
+.search-main .code{
+    width: 72px;
+    height: 86px;
+    border: 1px solid #eee;
+    margin-right: 110px;
+    text-align: center;
+    position: relative;
+}
+
+.search-main .code .icon-close{
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    color: #ddd;
+    border: 1px solid #eee;
+    position: absolute;
+    top: -1px;
+    left: -16px;
+}
+
+.search-main .code img{
+    width: 62px;
+    height: 62px;
 }
